@@ -4,9 +4,9 @@ package rocks.zipcode.io;
  * @author leon on 30/01/2019.
  */
 public class Item {
-    Long id;
-    String name;
-    Double price;
+    public Long id;
+    public String name;
+    public Double price;
 
     public Item() {
         this.id = 0L;
