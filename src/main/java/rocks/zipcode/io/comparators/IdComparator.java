@@ -10,6 +10,6 @@ import java.util.Comparator;
 public class IdComparator implements Comparator<Item> {
 
     public int compare(Item o1, Item o2) {
-        return Long.compare(o1.id, o2.id);
+        return Long.compare(o1.getId(), o2.getId());
     }
 }

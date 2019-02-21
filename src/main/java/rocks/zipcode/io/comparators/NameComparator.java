@@ -9,10 +9,7 @@ import java.util.Comparator;
  */
 public class NameComparator implements Comparator<Item> {
 
-
     public int compare(Item o1, Item o2) {
-        String one = o1.name;
-        String two = o2.name;
-        return one.compareTo(two);
+        return (o1.getName()).compareTo(o2.getName());
     }
 }
